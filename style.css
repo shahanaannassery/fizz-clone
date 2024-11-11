@@ -1,0 +1,141 @@
+body{
+    overflow-x: hidden;
+    margin-left: 0px;
+}
+/* navbar style */
+.dropdown-menu{
+    border-bottom: 3px solid black;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23ffffff' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); 
+}
+.nav-link:hover {
+    color: red  !important; 
+}
+
+
+.container-fluid {
+    background-color: rgb(10, 11, 39);
+    padding: 0; 
+  
+    
+}
+
+.navbar {
+    height: 70px; 
+    line-height: 70px; 
+    position: fixed;
+    z-index: 9;
+   
+    
+}
+
+
+.navbar-nav {
+    margin-left: 0;
+    padding-left: 0; 
+    
+    
+    
+}
+
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center; 
+    
+}
+/* first image style */
+.main{
+    padding-top: 70px;
+    width: 100%;
+    object-fit: cover;
+    
+    
+}
+/* rotate image style */
+.red-image{
+    width: 150px;
+    height: 350px;
+    background-size: 100% 100%;
+    position: relative;
+    animation: rotate 1s linear infinite;
+      animation-play-state: paused;
+      animation-delay: calc(var(--scroll) * -2s);
+      animation-iteration-count: 1;
+      animation-fill-mode: both;
+  }
+  /* black baground */
+  .black-background{
+      background-color: black;
+      height: 750px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-repeat: no-repeat;
+      padding: 50px;
+  }
+  /* last image */
+  .fizz{
+      width: 100%;
+  }
+  .rotate{
+      width: 100px;
+      /* margin: 50%; */
+      z-index: 5;
+  }
+  /* text on image */
+  .text1{
+    color: rgb(255, 255, 255);
+   margin-left: -190px;
+   z-index: 1;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+   font-weight:bold;
+   font-size: 55px;
+   z-index: 7;
+    
+    
+}
+.text{
+    font-size: 10px;
+    color:rgb(12,13,42);
+    text-decoration: none;
+}
+/* main paragraph of div */
+.main-text{
+    
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    font-family: "merivaregular";
+    font-size: 24px;
+    line-height: 1.2;
+}
+/* rotate style */
+@keyframes  rotate {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.row{
+    /* footer style */
+    
+    font-size: 14px;
+    font-family: "merivaregular";
+    color: #0a0b27;
+    text-align: left;
+    padding-bottom: 10px;
+   
+}
+/* footer content style */
+.footer-change{
+    font-weight: bold;
+}
+.footer-change:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+
